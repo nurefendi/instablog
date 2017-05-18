@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "313113338187",
+    "firebase_url": "https://instablog-3d74c.firebaseio.com",
+    "project_id": "instablog-3d74c",
+    "storage_bucket": "instablog-3d74c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313113338187:android:576366f9e0ea6bf1",
+        "android_client_info": {
+          "package_name": "com.masfendi.instablog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313113338187-orcumhmlrpuma5khtba1pio9uef6esgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.masfendi.instablog",
+            "certificate_hash": "71da985c8115660b543284b768dfa451506f09c9"
+          }
+        },
+        {
+          "client_id": "313113338187-fk341r49hku2ig10h3hni3etrrsbemn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVx8QWzCKLHvw-sMjagMmTdYgevDJPZ4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313113338187-fk341r49hku2ig10h3hni3etrrsbemn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
