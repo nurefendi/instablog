@@ -42,7 +42,6 @@ import com.squareup.picasso.Picasso;
      private TextView mNameUser, mEmailuser;
      private String pos_key = null;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,11 +69,7 @@ import com.squareup.picasso.Picasso;
         sekalilagi();
         authStatelistener();
         viewHolder();
-
-
     }
-
-
      private void sekalilagi() {
         mDatabaseCurentUser.child(pos_key).addValueEventListener(new ValueEventListener() {
             @Override
@@ -94,11 +89,7 @@ import com.squareup.picasso.Picasso;
                     mEmailuser.setText(email);
                     Picasso.with(ProfilActivity.this).load(ppImg).into(mProfilImagebtn);
                     pos_key=null;
-
                 }
-
-
-
             }
 
             @Override
@@ -107,7 +98,6 @@ import com.squareup.picasso.Picasso;
             }
         });
      }
-
 
      private void authStatelistener() {
          mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -118,7 +108,6 @@ import com.squareup.picasso.Picasso;
                      loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                      startActivity(loginIntent);
                  }
-
              }
          };
 
@@ -154,10 +143,6 @@ import com.squareup.picasso.Picasso;
 
                      }
                  });
-
-
-
-
                  viewHolder.mLikeBtn.setOnClickListener(new View.OnClickListener() {
                      @Override
                      public void onClick(View v) {
@@ -185,13 +170,10 @@ import com.squareup.picasso.Picasso;
 
                              @Override
                              public void onCancelled(DatabaseError databaseError) {
-
                              }
                          });
                      }
                  });
-
-
              }
          };
          mBloglist.setAdapter(firebaseRecycleadapter);
